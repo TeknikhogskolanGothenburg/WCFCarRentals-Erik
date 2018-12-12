@@ -1,0 +1,9 @@
+Erik Olsson
+
+Jag hanterar exceptions vid autentisiering och i vissa fall där man ska hämta data.
+Jag har använt try-catch som kaster FaultException om klienten t.ex. skickar ett ID som inte finns i DB eller om man angivit fel "kod".
+
+
+Jag har använt wsHttpBinding för Http service endpoints för att få Message Security.
+Använder även netTcpBinding för transport security på TCP endpoint.
+
